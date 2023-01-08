@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/klo"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="3"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.Meat_Packing2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:orientation="horizontal"
+        tools:ignore="Suspicious0dp"
+        android:background="@drawable/drawable"
+       >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.57"
+            android:gravity="center"
+            android:text="PLU"
+            android:textStyle="bold"
+
+
+
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35"
+            android:background="@drawable/drawable1"
+            android:gravity="center" android:textColor="@color/white"
+            android:text="1"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:gravity="center"
+            android:text="Chicken curry cut"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/drawable"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        tools:ignore="Suspicious0dp"
+        >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.41"
+            android:background="@drawable/drawable"
+            android:gravity="center"
+            android:text="Tate"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/text3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.205
+"
+          android:background="@drawable/drawable1"
+            android:textSize="20sp"
+            
+            android:gravity="center" android:textColor="@color/white"
+            android:textStyle="bold"
+             />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.24"
+            android:gravity="center"
+            android:text="MRP"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/drawable"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+          android:background="@drawable/drawable1"
+            android:text="₹299.0"
+            android:textStyle="bold"
+            android:gravity="center" android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+       
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        tools:ignore="Suspicious0dp">
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.353"
+            android:background="@drawable/drawable"
+            android:gravity="center"
+            android:text="Weight"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/text5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.197"
+          android:background="@drawable/drawable1"
+
+            android:gravity="center" android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.31"
+            android:gravity="center"
+            android:text="Price"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/drawable"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.19"
+          android:background="@drawable/drawable1"
+            android:text="₹0"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center" android:textColor="@color/white"
+            />
+    </LinearLayout>
+</LinearLayout>

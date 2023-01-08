@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.Meat_Packing"
+    >
+
+    <FrameLayout
+        android:id="@+id/flFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+ >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:background="@drawable/drawable">
+
+                <TextView
+                    android:id="@+id/text1_1"
+                    android:layout_width="285dp"
+                    android:layout_height="79dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:paddingLeft="18dp"
+                    android:paddingTop="22dp"
+                    android:text="PLU"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text1_2"
+                    android:layout_width="125dp"
+                    android:layout_height="79dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/grey"
+                    android:paddingTop="22dp"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:background="@drawable/drawable" android:textColor="@color/white">
+
+                <TextView
+                    android:id="@+id/text2_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="79dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:paddingLeft="18dp"
+                    android:paddingTop="22dp"
+                    android:text="Chicken curry cut"
+                    android:textSize="26sp"
+                    android:textStyle="bold" android:textColor="@color/black"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:background="@drawable/drawable"
+                >
+
+                <TextView
+                    android:id="@+id/text3_1"
+                    android:layout_width="285dp"
+                    android:layout_height="79dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:paddingLeft="18dp"
+                    android:paddingTop="22dp"
+                    android:text="Tare"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text3_2"
+                    android:layout_width="125dp"
+                    android:layout_height="79dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/grey"
+                    android:paddingTop="22dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+                    android:textSize="26sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:background="@drawable/drawable">
+
+                <TextView
+                    android:id="@+id/text4_1"
+                    android:layout_width="245dp"
+                    android:layout_height="79dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:paddingLeft="18dp"
+                    android:paddingTop="22dp"
+                    android:text="MRP"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text4_2"
+                    android:layout_width="165dp"
+                    android:layout_height="79dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/grey"
+                    android:fontFamily="serif-monospace"
+                    android:paddingTop="22dp"
+                    android:text="₹299.0"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="26sp"
+
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:background="@drawable/drawable"
+                >
+
+                <TextView
+                    android:id="@+id/text5_1"
+                    android:layout_width="285dp"
+                    android:layout_height="79dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:paddingLeft="18dp"
+                    android:paddingTop="22dp"
+                    android:text="Weight"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text5_2"
+                    android:layout_width="125dp"
+                    android:layout_height="79dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:paddingTop="22dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="26sp"
+                    android:background="@color/grey"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:background="@drawable/drawable"
+                >
+
+                <TextView
+                    android:id="@+id/text6_1"
+                    android:layout_width="285dp"
+                    android:layout_height="79dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:paddingLeft="18dp"
+                    android:paddingTop="22dp"
+                    android:text="Price"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text6_2"
+                    android:layout_width="125dp"
+                    android:layout_height="79dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:paddingTop="22dp"
+                    android:textAlignment="center"
+                    android:background="@color/grey"
+                    android:text="₹0"
+                    android:textColor="@color/white"
+                    android:textSize="26sp"
+
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="411dp"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/grey"
+        app:itemTextColor="@color/white"
+
+        app:itemIconSize="85dp"
+
+        android:orientation="horizontal"
+        tools:ignore="Orientation"
+
+    >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/aal_foreground" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/play_foreground" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
